@@ -34,11 +34,12 @@ public class FileProcess {
 				while ((line=reader.readLine()) != null){
 					String[] words=line.split(" ");
 				
-				for(int i=0;i<words.length;i++){
+				for(int i = 0;i < words.length;i++){
 					if(words.length > 0){
 			    		String aword=words[i];
 			    		
 					    // Judge if it's a number
+			    		System.out.println("test1="+aword.charAt(0));
 			    		String a1=aword.charAt(0)+"";
 			    		String a2=aword.charAt(aword.length() - 1)+"";	 
 			    		
